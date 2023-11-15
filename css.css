@@ -1,0 +1,144 @@
+.dd{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+}
+header{
+    margin-top: 200px;
+}
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+  .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  .course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+  }
+  @media (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  .bg1{
+    display: block;
+    position: absolute;
+    background-image: url(главныйфон.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    top: 0;
+}
+.bg2{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 663px;
+    left: 0;
+    top: 300px;
+}
+.text01{
+    display: inline-block;
+    position: absolute;
+    background-image: url(c:\Users\Пользователь\Downloads\WhatsAppImage2023-10-31at16.22.12.jpeg);
+    height: 300px;;
+    top: 600px;
+    left: 5%;
+    font-size: 35px;
+}
+.bt1{
+    left: 253px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 160px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 6px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    top: -111px
+}
+.bt1:hover{
+    background-color: rgb(255, 196, 0);
+}
+.bt2{
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 164px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    top: -116px;
+}
+.bt2:hover{
+    background-color: rgb(255, 196, 0);
+}
+.avtorr{
+    color:black;
+    margin-left: 270px;
+}
+.txet02{
+    position: absolute;
+    display: inline-block;
+    top: 600px;
+    left: 45%;
+}
+.from{
+    position: absolute;
+    display: inline-block;
+    top: 600px;
+    left: 85%;
+}
+.bt3{
+    left: -231px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    top: -128px;
+}
+.bt3:hover{
+    background-color: rgb(255, 196, 0);
+}
